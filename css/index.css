@@ -27,6 +27,19 @@
     font-size: 1.5 rem;
     color: #615151;
 }
+/* Seccion sobre mi */
+.seccion-oscura {
+    background-color: #1b1b32;
+    color: white;
+}
+.sobre-mi {
+    height: 500px;
+    padding: 10px;
+}
+.sobre-mi .contenedor {
+    max-width:  600px;
+    text-align: center;
+}
 
 /*  */
 /* Estilos generales */
@@ -41,6 +54,14 @@ h1 {
     font-size:  2.5rem;
     font-family: 'Rubik Dirt', system-ui;
 
+}
+.seccion-titulo {
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Rubik Dirt', system-ui;
+}
+.seccion-txt {
+    font-size: 1.2rem;   
 }
 /*  */
 /* Adaptable responsivo */

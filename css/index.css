@@ -9,3 +9,50 @@
     justify-content:  space-between; /* hace que el contenido de la barra de navegacion se vaya al otro lado */
 
 }
+/* Seccion hero */
+.hero {
+    background-color: #f5f6f7;
+    min-height: 450px; /* Altura minima */
+    text-align: center;
+}
+.hero-principal {
+    padding: 3rem;
+}
+.hero-imagen-desarrollador {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+.hero-principal h2 {
+    font-size: 1.5 rem;
+    color: #615151;
+}
+
+/*  */
+/* Estilos generales */
+/*  */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    font-size:  2.5rem;
+    font-family: 'Rubik Dirt', system-ui;
+
+}
+/*  */
+/* Adaptable responsivo */
+/*  */
+/* Quita el ojo en la haburguesa */
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+@media screen and (min-width: 700px) {
+    .hero-inferior-imagen {
+        max-width: 600px; /* ancho maximo o si no ocupa toda la pantalla */
+    }
+}

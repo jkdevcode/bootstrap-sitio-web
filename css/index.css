@@ -135,6 +135,19 @@
     font-size: 60px;
     margin: 10px;
 }
+/* Artículos */
+.articulos {
+    min-height: 500px;
+    padding: 30px;
+}
+.articulos .card {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px;
+}
+.card-header {
+    font-weight: bold;
+}
 
 /*  */
 /* Estilos generales */

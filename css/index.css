@@ -234,7 +234,7 @@
 /*  */
 /* Pie de pagina (footer) */
 footer {
-    min-height: 500px;
+    min-height: 450px;
 }
 .footer-logo {
     height: 80px;
@@ -273,8 +273,11 @@ footer {
 }
 .derechos-de-autor {
     font-size: 15px;
-    color: #aeaeae;
-    padding: 20px;
+	font-weight: bold;
+    padding-top: 20px;
+}
+.derechos-de-txt {
+    font-size: 12px;
 }
 
 /*  */
